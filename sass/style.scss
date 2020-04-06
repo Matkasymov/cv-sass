@@ -1,0 +1,441 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+body {
+  line-height: 1;
+}
+
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+}
+
+
+body {
+  background-image: url(https://cdn1.savepice.ru/uploads/2020/4/6/47e2e20578f45bab69052536c3cb8f01-full.jpg);
+  font-family: sans-serif;
+  font-size: 11pt;
+  line-height: 2
+}
+
+p {
+  display: block;
+  padding-bottom: 6pt;
+  line-height: 1.5
+}
+
+.p {
+  line-height: 1.5
+}
+
+.skill__top ul li {
+  list-style: none;
+}
+
+i {
+  font-style: italic
+}
+
+h1 {
+  font-size: 30pt;
+  color: #000
+}
+
+a, a:active, a:visited {
+  color: #166ca1;
+  text-decoration: none;
+  border-bottom: 1px #166ca1 dashed
+}
+
+a:active:hover, a:hover, a:visited:hover {
+  color: #1c8ace;
+  text-decoration: none;
+  border-bottom: 1px #1c8ace dashed
+}
+
+.outer_link {
+  border-style: solid
+}
+
+.outer_link:hover {
+  border-style: solid
+}
+
+.row {
+  float: left;
+  width: 100%;
+  display: inline-block;
+}
+
+.row_margin {
+  margin: 0 35pt;
+  margin-top: 35pt
+}
+
+.left {
+  float: left;
+  width: 60%
+}
+
+.right {
+  float: left;
+  width: 40%
+}
+
+.block__tabs {
+  color: blue;
+  flex-direction: row;
+  align-content: stretch;
+  font-size: 20px;
+  line-height: 48px;
+  text-align: end;
+  padding-bottom: 2.4rem;
+
+}
+
+.block__tabs input {
+  display: none;
+}
+
+.block__tabs .tab {
+  display: none;
+}
+
+#first-tab:checked ~ .tab1,
+#two-tab:checked ~ .tab2,
+#three-tab:checked ~ .tab3 {
+  display: block;
+}
+
+.block__tabs input:checked + label {
+  color: red;
+}
+
+.right_margin {
+  margin-left: 35pt
+}
+
+.text_align {
+  text-align: right;
+  vertical-align: top
+}
+
+.container {
+  position: relative;
+  padding: 0 80px;
+  min-width: 880px;
+  max-width: 1080px;
+  margin: 0 auto
+}
+
+.block_header {
+  position: relative;
+  float: left;
+  background-color: #e8e8ea;
+  width: 100%;
+  margin: 80px auto;
+  box-shadow: -20px 70px 50px rgba(0, 0, 0, .3), 30px -20px 40px rgba(245, 245, 245, .8)
+}
+
+.cv_header {
+  border: 1px solid #cdcdd2;
+  border-bottom: none;
+  color: #686360
+}
+
+.cv_header .data {
+  float: left;
+  font-weight: 600;
+  width: 20%
+}
+
+
+.cv_body {
+  background-color: #0e0e15;
+  border: 1px solid #232334;
+  border-top: none;
+  border-bottom: none;
+  color: #c9c2bc
+}
+
+.cv_body {
+  h3 {
+    font-size: 18pt;
+    color: #fff;
+    line-height: 1;
+    padding-bottom: 24pt;
+    padding-top: 18pt;
+    padding-right: 100%;
+  }
+
+  .code_title {
+    padding: 70px 769px 0 0;
+
+  }
+
+  .code_title1 {
+    padding-right: 688px;
+  }
+.code_title2{
+  padding: 70px 818px 0 0;
+}
+  ul li {
+    margin-bottom: 14pt
+  }
+
+  .skill__top {
+    line-height: 1.5
+  }
+
+  .lang_name {
+    color: #fff;
+    float: left;
+
+  }
+
+  .indicator {
+    height: 4px;
+    width: 100%;
+    background-color: #686360;
+    display: inline-block
+  }
+
+  .indicator {
+    .positive {
+      height: inherit;
+      width: inherit;
+      background-color: #03A9F4
+    }
+
+    .prc00 {
+      width: 0
+    }
+
+    .prc05 {
+      width: 5%
+    }
+
+    .prc10 {
+      width: 10%
+    }
+
+    .prc15 {
+      width: 15%
+    }
+
+    .prc20 {
+      width: 20%
+    }
+
+    .prc25 {
+      width: 25%
+    }
+
+    .prc30 {
+      width: 30%
+    }
+
+    .prc35 {
+      width: 35%
+    }
+
+    .prc40 {
+      width: 40%
+    }
+
+    .prc45 {
+      width: 45%
+    }
+
+    .prc50 {
+      width: 50%
+    }
+
+    .prc55 {
+      width: 55%
+    }
+
+    .prc60 {
+      width: 60%
+    }
+
+    .prc65 {
+      width: 65%
+    }
+
+    .prc70 {
+      width: 70%
+    }
+
+    .prc75 {
+      width: 75%
+    }
+
+    .prc80 {
+      width: 80%
+    }
+
+    .prc85 {
+      width: 85%
+    }
+
+    .prc90 {
+      width: 90%
+    }
+
+    .prc95 {
+      width: 95%
+    }
+
+    .prc100 {
+      width: 100%
+    }
+  }
+  .pencil {
+    position: absolute;
+    top: 680px;
+    right: -80px;
+    background-image: url(https://cdn1.savepice.ru/uploads/2020/4/6/4ae7b3c7bf5dcad571f7aedde40a63bc-full.png);
+    width: 32px;
+    height: 606px
+  }
+
+  .edu {
+    float: left;
+    width: 100%
+  }
+
+  .edu {
+    .stage {
+      float: inherit;
+      line-height: 1.5
+    }
+
+    .body {
+      margin-left: -40px;
+      padding-left: 180px;
+      background: url(https://cdn1.savepice.ru/uploads/2020/4/6/10b1b36c76e9dafae5a7ca284a879c1d-full.png) 195px 0 no-repeat;
+      padding-bottom: 50pt;
+      line-height: 1.5
+    }
+
+    .body {
+      .link {
+        float: left;
+        padding-left: 40px;
+        padding-top: -5px;
+      }
+
+      .link {
+
+        .name {
+          line-height: 1.5
+        }
+
+        .position {
+          font-weight: 600;
+          color: #fff;
+          line-height: 2
+        }
+
+        .desc {
+          font-style: italic;
+          font-size: 9pt;
+          line-height: 1.5
+        }
+      }
+    }
+
+    .top {
+      background-image: url(https://cdn1.savepice.ru/uploads/2020/4/6/269a78fde800952e84b9f2f2aace659a-full.png);
+    }
+
+  }
+
+  .empty {
+    width: 20px;
+    height: 85px;
+    background: #0e0e15;
+    margin: -43px 0px 0 150px
+  }
+}
+
+.img-header {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+.brain {
+  margin: 206px 168px;
+}
+
+.menu {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 30px;
+  background: #0e0e15;
+  border-radius: 5%;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.menu:hover {
+  transform: scale(1.2);
+}
+
+.box_code {
+  text-align: left;
+  color: #9E9E9E;
+  font-size: 20px;
+  margin: 60px 100px 30px 100px;
+  background: #e8e8ea;
+  border-radius: 3%;
+  padding: 37px 100px;
+}
+
+code span {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.box_edu {
+  text-align: left;
+  font-size: 30px;
+  padding: 25px 140px;
+  line-height: 3;
+}
+
+.text {
+  text-align: left;
+  padding: 36px 110px;
+  line-height: 3;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
